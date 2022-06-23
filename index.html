@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="clock/style.css">
+</head>
+
+<body class="bg-sky-500 pt-32">
+    <section class="min-h-full p-3 w-11/12 md:w-1/2  my-5 mx-auto  bg-slate-50 rounded-md shadow-lg">
+        <div class="text-center -mt-14 text-3xl text-slate-100 font-bold">Berkah Booster</div>
+        <div class="flex flex-row justify-center">
+            <div class="kiri w-1/2 mx-3">
+                <div class="bg-green-600 pt-0 mt-6 rounded-md">
+                    <div id="jquery-script-menu" class="float-end">
+                        <div class="jquery-script-center">
+                            <ul>
+                            </ul>
+                            <div id="carbon-block"></div>
+                            <div class="jquery-script-ads">
+                                <script type="text/javascript"
+                                    src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                    </script>
+                            </div>
+                            <div class="jquery-script-clear"></div>
+                        </div>
+                    </div>
+                    <div class="text-white p-2">
+                        <div class="timeDiv">
+                            <span class="font-color" id="time"></span>
+                            <span class="font-color" id="sec"></span>
+                            <span class="font-color" id="med"></span>
+                        </div>
+                        <div class="dayDiv">
+                            <span class="font-color text-white day">MIN</span>
+                            <span class="font-color text-white day">SEN</span>
+                            <span class="font-color text-white day">SEL</span>
+                            <span class="font-color text-white day">RAB</span>
+                            <span class="font-color text-white day">KAM</span>
+                            <span class="font-color text-white day">JUM</span>
+                            <span class="font-color text-white day">SAB</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-lg my-3 font-thin italic text-center bg-yellow-200 rounded-md" id="ucapan"></p>
+            </div>
+            <div class="block w-1/2 border-2 rounded-md mt-6 p-3 mx-3 border-slate-700">
+                <h2 class="text-center font-bold text-md md:text-2xl text-slate-800 my-2">Baca Ayat Al - Qur'an</h2>
+                <select
+                    class="w-9/12 mx-auto text-sm block p-2 my-2 border-2 text-slate-500 border-blue-200 focus:border-blue-400 focus:outline-none hover:border-blue-400 duration-100 transition-all rounded-md shadow-md"
+                    name="" id="pilih">
+                    <option class="" value="Pilih Surat">Pilih Surat</option>
+                </select>
+                <button
+                    class="button text-sm bg-sky-600 hover:bg-sky-900 hover:shadow-lg transition-all duration-100 text-white rounded-md w-8/12 mx-auto block text-lg p-2 my-5">Generate
+                    Ayat</button>
+            </div>
+        </div>
+        </div>
+        <div class="w-12/12 p-4 isi block min-h-0 my-3">
+            <h5 class="block my-3 namasurat text-xl font-semibold"></h5>
+            <h5 class="block my-3 arti font-thin"></h5>
+            <div class="murotal"></div>
+            <div class="bacaan">
+
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="clock/app.js"></script>
+</body>
+
+</html>

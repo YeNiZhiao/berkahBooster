@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+      .day{
+        opacity: 0.4;
+      }
+    </style>
+</head>
+<body>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/12 p-4 bg-green-600 text-slate-100 rounded-md shadow-lg text-center">
+        <div class="timeDiv w-full relative my-3">
+          <span class="text-6xl mx-0 opacity-[0.4]" id="time"></span>
+          <span class="font-color text-sm mx-0" id="sec"></span>
+          <span class="font-color" id="med"></span>
+        </div>
+        <div class="dayDiv w-full flex justify-between my-3">
+          <span class="font-color day">MIN</span>
+          <span class="font-color day">SEN</span>
+          <span class="font-color day">SEL</span>
+          <span class="font-color day">RAB</span>
+          <span class="font-color day">KAM</span>
+          <span class="font-color day">JUM</span>
+          <span class="font-color day">SAB</span>
+        </div>
+        <div id="full-date">
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+</html>

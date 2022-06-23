@@ -1,0 +1,20 @@
+#time {
+    font-size: 3.8rem;
+}
+
+#med {
+    position: relative;
+    top: 0px;
+    right: 0;
+}
+
+.dayDiv {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.dayDiv span {
+    font-size: 0.7rem;
+    opacity: 0.4;
+    margin: 0 4px;
+}
